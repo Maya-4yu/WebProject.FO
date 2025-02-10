@@ -1,0 +1,146 @@
+/* page3*/
+
+.sinergi{
+    
+    position: absolute;
+    text-align:right; 
+    left:850px; 
+    top: 65px;
+    text-shadow: 4px 2px 2px rgb(184, 179, 179);
+    font-size: 65px;
+    font-family: 'Lalezar';
+}
+.sinergi2{
+    position: absolute;
+    text-align:right; 
+    left:1150px; 
+    top: 125px;
+    bottom: 50px;
+    text-shadow: 4px 2px 2px rgb(184, 179, 179);
+    font-size: 65px;
+    font-family: 'Lalezar';
+}
+
+.judul{
+
+    position: absolute;
+    font-size: 85px;
+    text-align:right; 
+    left: 900px; 
+    top: 85px;
+    text-shadow: 6px 4px 4px rgb(184, 179, 179);
+    font-family: 'Lalezar';
+    
+}
+
+.kanan{
+
+    position: absolute;
+    text-align: left; 
+    left:850px;
+    right: 260px; 
+    top: 195px;
+    
+}
+
+.imgs img{
+    margin-left:0px; 
+    margin-top: 49px;
+    width: 40rem;
+    height: 20rem;
+    filter: drop-shadow(10px 10px 2px rgb(92, 90, 90));
+    border-radius: 30px;
+    object-fit: cover;
+
+}
+
+.juduk{
+    position: absolute;
+    text-align:right; 
+    left: 100px; 
+    top: 85px;
+    text-shadow: 4px 2px 2px rgb(184, 179, 179);
+    font-size: 85px;
+    font-family: 'Lalezar';
+}
+
+.kiri{
+
+    position: absolute;
+    text-align: left;
+    top: 195px;
+    left: 100px;
+    right: 1100px;
+}
+
+.foto img{
+    margin-left: 900px;
+    margin-top: 49px;
+    width: 40rem;
+    height: 20rem;
+    filter: drop-shadow(10px 10px 2px rgb(92, 90, 90));
+    border-radius: 30px;
+    object-fit: cover;
+}
+
+
+.wiro img{
+    filter: drop-shadow(20PX 25PX 9PX  rgb(92, 90, 90));
+    border-radius: 25px;
+    object-fit: cover;
+    width: 164vh;
+    height: 530px;
+    
+}
+
+.blok{
+
+    margin-block:calc(50vh 50px);
+}
+
+.divisi{
+    margin-block:calc(35px 40px);
+    padding-top: 350px;     /* ketebalan background*/
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 14rem;      /* jarak anatara background,foto,abjad*/
+    margin-bottom: 3rem;
+    height: 1rem;
+    width: 80rem;
+}
+
+.pig {
+    position: absolute;
+    text-align: left; 
+    left:18rem;
+    right: 35rem; 
+    top: 52rem;
+    font-size: 30px;
+    
+}
+.pigi{
+    position: absolute;
+    text-align: left; 
+    left:25rem;
+    right: 28rem; 
+    top: 60rem;
+    font-size: 30px;
+}
+.gigi{
+    position: absolute;
+    text-align: left; 
+    left:20rem;
+    right: 28rem; 
+    top: 92rem;
+    font-size: 30px;
+}
+
+.name{
+    position: absolute;
+    left: 120px;
+    padding: 10px;
+    font-size:160px;
+    filter: drop-shadow(20px 12px 3px rgba(156, 156, 156, 0.603));
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+
+}
