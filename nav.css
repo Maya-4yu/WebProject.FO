@@ -53,6 +53,13 @@ body {
 
 }
 
+.icon{
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    left: 10px;
+}
+
 .objek{
 
     background-color: #A6CDC6;
