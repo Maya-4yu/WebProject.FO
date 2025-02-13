@@ -53,3 +53,9 @@ body {
 .ft-title {
     font-size: 40px;
 }
+
+.lingkaran{
+    border-radius: 80px;
+    
+    right: 50px;
+}
