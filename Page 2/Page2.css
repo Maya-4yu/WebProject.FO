@@ -21,11 +21,20 @@ body {
 }
 
 .li-navbar {
-    background-color: #D9D9D9;
     list-style-type: none;
     padding: 20;
     margin: 5px;
     font-size: 20px;
+}
+
+/* .li-navbar:hover {
+    background-color: #D9D9D9;
+    transition: .2s ease-in-out;
+} */
+
+.a-navbar {
+    color: black;
+    text-decoration: none;
 }
 
 .content {
