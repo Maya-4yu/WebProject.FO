@@ -24,16 +24,16 @@ body {
     list-style-type: none;
     padding: 20;
     margin: 5px;
-    font-size: 20px;
+    font-size: 20px;  
 }
 
-/* .li-navbar:hover {
+.li-navbar:hover {
     background-color: #D9D9D9;
     transition: .2s ease-in-out;
-} */
+} 
 
-.a-navbar {
-    color: black;
+.navbar a{
+    color: white;
     text-decoration: none;
 }
 
