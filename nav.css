@@ -53,12 +53,19 @@ body {
 
 }
 
+.icon{
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    left: 10px;
+}
+
 .objek{
 
     background-color: #A6CDC6;
     padding-top: 20px ;
     border-style: solid ;
-  border-color: #5e59599d;
+    border-color: #5e59599d;
 }
 
 .container {
@@ -81,6 +88,7 @@ body {
 .fo{
     position: absolute;
     text-align: left;
+    left: 80px;
     font-family:'Inria' Serif;
     font-size: 40px;
     color: white;
