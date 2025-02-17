@@ -1,26 +1,23 @@
-.desktop-1,
 .desktop-1 * {
-  box-sizing: border-box;
-}
-.desktop-1 {
-  background: #fbf5dd;
+  background: #000000;
   height: 2720px;
-  position: relative;
+  position: absolute;
   overflow: hidden;
+  box-sizing: border-box;
 }
 .rectangle-1_navbar {
     background: #16404d;
     width: 1458px;
     height: 119px;
-    position: relative;
+    position: absolute;
     left: 0px;
     top: 0px;
   }
-  .image-front-office.jpg{
+  .urlicons8-office-96.png{
     width: 96px;
     height: 96px;
-    position: absolute;
-    left: 13px;
+    position: relative;
+    left: 5px;
     top: 0px;
   }
   .front-office_tulisannavbar {
