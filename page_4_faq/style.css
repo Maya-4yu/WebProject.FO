@@ -1,0 +1,152 @@
+.desktop-1,
+.desktop-1 * {
+  box-sizing: border-box;
+}
+.desktop-1 {
+  background: #fbf5dd;
+  height: 2720px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-1_navbar {
+    background: #16404d;
+    width: 1458px;
+    height: 119px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+  }
+  .image-front-office.jpg{
+    width: 96px;
+    height: 96px;
+    position: absolute;
+    left: 13px;
+    top: 0px;
+  }
+  .front-office_tulisannavbar {
+    color: #ffffff;
+    text-align: left;
+    font-family: "InriaSerif-Regular", sans-serif;
+    font-size: 70px;
+    font-weight: 400;
+    position: absolute;
+    left: 120px;
+    top: 20px;
+  }
+  .rectangle-2_pencetan {
+    background: #d9d9d9;
+    border-radius: 30px;
+    width: 618px;
+    height: 84px;
+    position: absolute;
+    left: 792px;
+    top: 21px;
+  }
+  .home_navbar {
+    color: #000000;
+    text-align: left;
+    font-family: "Jomolhari-Regular", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    position: absolute;
+    left: 859.45px;
+    top: 37.19px;
+    width: 88.77px;
+    height: 34.41px;
+  }
+  .struktur_navbar {
+    color: #000000;
+    text-align: left;
+    font-family: "Jomolhari-Regular", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    position: absolute;
+    left: 983.42px;
+    top: 37.19px;
+    width: 121.23px;
+    height: 48.58px;
+  }
+  .fasilitas_navbar {
+    color: #000000;
+    text-align: left;
+    font-family: "Jomolhari-Regular", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    position: absolute;
+    left: 1131.99px;
+    top: 37.19px;
+    width: 122.59px;
+    height: 34.41px;
+  }
+  .faq_navbar {
+    color: #000000;
+    text-align: left;
+    font-family: "Jomolhari-Regular", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    position: absolute;
+    left: 1281.48px;
+    top: 37.19px;
+    width: 72.92px;
+    height: 34.41px;
+  }
+  .tulisan_faq {
+    color: #16404d;
+    text-align: center;
+    font-family: "Itim-Regular", sans-serif;
+    font-size: 100px;
+    font-weight: 400;
+    position: absolute;
+    left: 651px;
+    top: 257px;
+  }
+  .punya-pertanyaan-tentang-fo {
+    color: #dda853;
+    text-align: center;
+    font-family: "Itim-Regular", sans-serif;
+    font-size: 75px;
+    font-weight: 400;
+    position: absolute;
+    left: 247px;
+    top: 377px;
+  }
+  .rectangle-tengah {
+    background: #a6cdc6;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 2px;
+    width: 1319px;
+    height: 1558px;
+    position: absolute;
+    left: 61px;
+    top: 605px;
+    filter: blur(2px);
+  }
+  .frame-faq {
+    display: flex;
+    flex-direction: column;
+    gap: 43px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 1202.49px;
+    height: 909px;
+    position: absolute;
+    left: 132px;
+    top: 721px;
+    box-shadow: 0px 4px 16px 0px rgba(243, 243, 224, 0.25);
+  }
+  .frame-1 {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    box-shadow: 0px 5px 16px 0px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+  }
