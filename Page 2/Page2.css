@@ -269,12 +269,10 @@ body {
     top: 50px;
 }
 
-<<<<<<< HEAD
 .lin{
     background-color: #000000;
 }
 
-=======
 .gambar_logo {
     border-radius: 100px;
     border-style: solid;
@@ -287,7 +285,6 @@ body {
 }
 
 .gambar_logo2 {
-    width: 20px;
-    height: 30px;
+    width: 50px;
+    height: 80px;
 }
->>>>>>> 301892fc8dac8f586ba8259b647aed00dae77eb3
