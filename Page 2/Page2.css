@@ -129,29 +129,29 @@ body {
 
 .but1 {
     position: static;
-    padding-top: 500px;
-    margin-left: 50px;
+    padding-top: 430px;
+    margin-left: 55px;
 }
 .rectangle-2 {
     background: #16404d;
     border-radius: 30px;
-    width: 250px;
+    width: 240px;
     height: 280px;
     position: absolute;
     left: auto;
     top: auto; 
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 1);
+    box-shadow: 15px 20px 20px 10px rgba(0, 0, 0, 0.6);
 }
 .rectangle-3 {
     background: #a6cdc6;
     border-radius: 10px;
-    width: 155px;
-    height: 200px;
+    width: 180px;
+    height: 210px;
     position: absolute;
     left: auto;
     top: auto;
-    margin-top: 45px;
-    margin-left: 37px;
+    margin-top: 35px;
+    margin-left: 30px;
 }
 .jdl1 {
     color: #000000;
@@ -164,6 +164,19 @@ body {
     top: auto;
     width: 183px;
     height: 153px;
-    margin-top: 95px;
-    margin-left: 50px;
+    margin-top: 70px;
+    margin-left: 40px;
+}
+
+.rectangle-4 {
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 4.5px;
+    width: 1000px;
+    height: 620px;
+    position: absolute;
+    margin-top: 600px;
+    object-fit: cover;
+    justify-content: left;
 }
