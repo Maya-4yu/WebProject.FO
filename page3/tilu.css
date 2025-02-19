@@ -97,6 +97,11 @@ body {
     color: white;
 }
 
+.aut{
+    left: auto;
+    top: auto;
+    right: auto;
+}
 .footer{
     background-color: #16404D;
     border-radius: 100px 100px 0px 0px;
@@ -113,7 +118,7 @@ body {
   width: 94px;
   height: 90px;
   position: absolute;
-  left: 60px;
+  margin-left: 60px;
   margin-top: -17rem;
 
 }
