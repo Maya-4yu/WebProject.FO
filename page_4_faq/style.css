@@ -56,7 +56,8 @@ body {
 
   background-color: #A6CDC6;
   margin-top: 30px ;
-  padding-top: 10rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
   border-style: solid ;
   border-color: #5e59599d;
 }
@@ -105,7 +106,7 @@ body {
 }
 .sekabehane {
   background: #ffffff;
-  border-radius: 10px;
+  border-radius: 5px;
   padding: 14px;
   display: flex;
   flex-direction: column;
@@ -135,4 +136,41 @@ body {
   font-size: 24px;
   font-weight: 400;
   position: relative;
+}
+.punya-pertanyaanlain{
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 50px;
+}
+.janganragu-dengansitus{
+  color: #16404D;
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 10px;
+}
+.nomerbawah{
+  position: relative;
+  right: 13rem;
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 50px;
+  text-align: center;
+}
+.icon-phone{
+  position: relative;
+  margin-top: 50px;
+  left: 20rem;
+  /* bottom: 1rem; */
+  /* right: 10rem; */
+  
+}
+.email-bawah{
+  position: relative;
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  left: 10rem;
+  bottom: 37px;
 }
