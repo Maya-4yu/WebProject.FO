@@ -32,7 +32,6 @@ body {
     padding: 15px 20px;
 }
 
-
 .navbar a:hover {
     background-color:#DDA853;
     size: 5px 10px;
@@ -61,6 +60,20 @@ body {
 }
 
 .footer {
+    padding-bottom: 50px;
+}
+
+.rectangle-5 {
+    background-color: #16404D;
+    border-radius: 100px 100px 0px 0px;
+    position: relative;
+    width: 60rem;
+    height: 18rem;
+    top: 83rem;
+    left: 9.5rem;
+}
+
+/* .footer {
     background-color: #16404D;
     border-radius: 100px 100px 0px 0px;
     margin-top: 85rem;
@@ -149,14 +162,8 @@ body {
     left: auto;
     right: auto;
     padding: 100px;
-}
+} */
 
-.img-2 {
-    position: absolute;
-    top: 3000px;
-    width: 30%;
-    height: 30%;
-}
 
 .judul {
     color: #16404d;
