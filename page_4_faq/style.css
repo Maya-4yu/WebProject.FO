@@ -159,10 +159,11 @@ body {
   text-align: center;
 }
 .icon-phone{
-  position: absolute;
-  left: 70rem;
-  bottom: 7rem;
-  right: 10rem;
+  position: relative;
+  margin-top: 50px;
+  left: 20rem;
+  /* bottom: 1rem; */
+  /* right: 10rem; */
   
 }
 .email-bawah{
