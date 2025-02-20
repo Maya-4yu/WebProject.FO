@@ -10,35 +10,34 @@ body {
 .navbar {
 
     background-color: #16404D;
-    /* padding:10px; */
+    padding:10px;
     text-align: right;
-    height: 7vh;
+    min-height:2vh;
+    max-height: 10vh;
 
 }
 
-.navbar ul {
+.navbar ul {    
 
     list-style:lower-alpha;
     margin: 5px;
     padding: 5px;
-    font-size: 5vh;
 
 }
 
 .navbar li {
 
     display: inline;
-    font-size: 25px;
+    font-size: 3vh;
 
 }
 
 .navbar a {
 
     color:black;
-
     text-decoration: none;
-
     padding: 15px 20px;
+    border-top-width: 4vw;
     
 }
 
@@ -46,17 +45,16 @@ body {
 .navbar a:hover {
 
     background-color:#3a3535;
-    size: 5px 10px;
-    border-radius: 30px;
+    size: 1vw 3vh;
+    border-radius: 5vh;
 
 }
 
 .icon{
-    position: absolute;
-    top: 1vh;
-    width: 3vw;
-    height: 5vh;
-    left: 10px;
+    position:absolute;
+    margin-top: -1vh;
+    block-size: 4rem;
+    left: 20px ;
 }
 
 
@@ -64,41 +62,39 @@ body {
 .objek{
 
     background-color: #A6CDC6;
-    padding-top: 20px ;
     border-style: solid ;
     border-color: #5e59599d;
+    margin-right: 50px; 
+    margin-left: 50px; 
+    margin-top: 20px;
 }
 
 .container {
 
     position: relative;
-    margin-left: 50px;
+    /* margin-left: 50px; */
     min-width: 2vw;
     min-height: 1vh;
-    
-}
-.contain{
-    position: relative;
-    margin-right: 8vh;
+    text-align: center; 
+    margin-top: 25px;
 }
 
 .teks {
 
     position: absolute;
-    top: -18rem;
+    top: 4vh;
     left: 230px;
-    right: 230px;
-    font-family:  serif;
-    padding: 100px;
-    font-size: 200px;
+    width: 50vw;
+    text-align: center;
+    /* font-family:  serif; */
+    font-size: 12vh;
 }
 
 .fo{
     position: absolute;
     text-align: left;
-    left: 5vw;
-    font-family:'Inria' Serif;
-    font-size: 5vh;
+    left: 7vw;
+    font-size: 4vh;
     color: white;
 }
 
@@ -239,10 +235,10 @@ body {
 }
 
 .imgs img{
-    margin-left:0px; 
+    left:-10px; 
     margin-top: 49px;
-    width: 40rem;
-    height: 20rem;
+    width: 40vw;
+    height: 40vh;
     filter: drop-shadow(10px 10px 2px rgb(92, 90, 90));
     border-radius: 30px;
     object-fit: cover;
@@ -285,7 +281,7 @@ body {
     object-fit: cover;
     width: 70vw;
     height: 55vh;
-    
+    scroll-padding-left:inherit;
 }
 
 .blok{
@@ -302,7 +298,6 @@ body {
     margin-bottom: 3rem;
     height:30vh;
     width: auto;
-    /* top: auto; */
 }
 
 .name{

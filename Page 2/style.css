@@ -1,0 +1,14 @@
+@media screen and (max-width: 600px) {
+   nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   } 
+   nav h1 {
+    font-size: 1.5em;
+   }
+   div[style*='flex'] {
+    flex-direction: column;
+   }
+
+}
