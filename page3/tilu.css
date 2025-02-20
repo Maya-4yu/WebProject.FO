@@ -109,14 +109,14 @@ body {
 }
 .log{
     background: #a6cdc6;
-  border-radius: 100px;
-  width: 94px;
-  height: 90px;
-  position: absolute;
-  left: auto ;
-  margin-left: 60px;
-  margin-top: -17rem;
-
+    border-radius: 100%;
+    width: 5vw;
+    height: 9vh;
+    position: absolute;
+    left: auto ;
+    margin-left: 60px;
+    margin-top: -17rem;
+    object-fit: cover;
 }
 .line{
     position:relative;
@@ -321,7 +321,7 @@ body {
     text-align: left; 
     left:20rem;
     right: 28rem; 
-    top: 92rem;
+    top: 90rem;
     font-size: 30px;
 }
 
@@ -333,4 +333,8 @@ body {
     filter: drop-shadow(20px 12px 3px rgba(156, 156, 156, 0.603));
     font-family: Impact, 'Arial Narrow Bold', sans-serif;
 
+}
+
+.pnjng p{
+    width: 100vh;
 }
