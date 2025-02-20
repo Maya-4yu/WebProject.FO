@@ -109,18 +109,20 @@ body {
 }
 .log{
     background: #a6cdc6;
-  border-radius: 100px;
-  width: 94px;
-  height: 90px;
-  position: absolute;
-  left: 60px;
-  margin-top: -17rem;
-
+    border-radius: 100%;
+    width: 5vw;
+    height: 9vh;
+    position: absolute;
+    left: auto ;
+    margin-left: 60px;
+    margin-top: -17rem;
+    object-fit: cover;
 }
 .line{
     position:relative;
     padding-top: 12px;
     background-color: #a6cdc6;
+    top: auto;
     top: -30px;
     
    
@@ -132,7 +134,9 @@ body {
   font-size: 14px;
   font-weight: 900;
   position: absolute;
+  top: auto;
   top: 90px;
+  left: auto;
   left: 170px;
   
 }
@@ -141,6 +145,7 @@ body {
     font-family: "inter-black", sans-serif;
     font-size: 34px;
     position: absolute;
+    left: auto;
     left: 170px;
     top: 50px;
     font-weight: 900;
@@ -167,6 +172,8 @@ body {
 }
 .isi{
     position: absolute;
+    width: 250px;
+    height: 1000px;
     top: 100px;
     font-size:15px;
     font-weight: 70;
@@ -288,15 +295,15 @@ body {
     margin-right: 200px;
     margin-top: 14rem;      /* jarak anatara background,foto,abjad*/
     margin-bottom: 3rem;
-    height: 1rem;
-    width: 80rem;
+    height:auto;
+    width: auto;
 }
 
 .pice {
     position: absolute;
     text-align: left; 
     left:18rem;
-    right: 35rem; 
+    /* right: 35rem;  */
     top: 52rem;
     font-size: 30px;
     
@@ -305,7 +312,7 @@ body {
     position: absolute;
     text-align: left; 
     left:25rem;
-    right: 28rem; 
+    /* right: 28rem;  */
     top: 60rem;
     font-size: 30px;
 }
@@ -313,8 +320,8 @@ body {
     position: absolute;
     text-align: left; 
     left:20rem;
-    right: 28rem; 
-    top: 92rem;
+    /* right: 28rem;  */
+    top: 90rem;
     font-size: 30px;
 }
 
@@ -326,4 +333,11 @@ body {
     filter: drop-shadow(20px 12px 3px rgba(156, 156, 156, 0.603));
     font-family: Impact, 'Arial Narrow Bold', sans-serif;
 
+}
+
+.pnjng p{
+    width: auto;
+    min-width: 20vw;
+    max-width: 60vw;
+    min-height: 10vh;
 }

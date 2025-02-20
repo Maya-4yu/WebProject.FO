@@ -1,0 +1,22 @@
+.gambar_logo {
+    top:90px;
+    width: auto;
+    height: auto;
+    left: 500px;
+
+}
+
+.judul_struktur {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    top: 50px;
+    font-weight: 400;
+}
+
+.gambar_logo2 {
+    top:10px;
+    width:90px;
+   height: 70px;
+   object-fit: cover;
+}
