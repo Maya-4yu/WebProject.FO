@@ -303,7 +303,7 @@ body {
     position: absolute;
     text-align: left; 
     left:18rem;
-    right: 35rem; 
+    /* right: 35rem;  */
     top: 52rem;
     font-size: 30px;
     
@@ -312,7 +312,7 @@ body {
     position: absolute;
     text-align: left; 
     left:25rem;
-    right: 28rem; 
+    /* right: 28rem;  */
     top: 60rem;
     font-size: 30px;
 }
@@ -320,7 +320,7 @@ body {
     position: absolute;
     text-align: left; 
     left:20rem;
-    right: 28rem; 
+    /* right: 28rem;  */
     top: 90rem;
     font-size: 30px;
 }
