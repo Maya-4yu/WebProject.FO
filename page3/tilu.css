@@ -17,12 +17,11 @@ body {
 
 }
 
-.navbar ul {
+.navbar ul {    
 
     list-style:lower-alpha;
     margin: 5px;
     padding: 5px;
-    font-size: 5vh;
 
 }
 
@@ -53,9 +52,8 @@ body {
 
 .icon{
     position:absolute;
-    /* width: 3vw;
-    height: 5vh; */
-    block-size: 2vw 3vh ;
+    margin-top: -1vh;
+    block-size: 4rem;
     left: 20px ;
 }
 
@@ -64,7 +62,6 @@ body {
 .objek{
 
     background-color: #A6CDC6;
-    padding-top: 2vh ;
     border-style: solid ;
     border-color: #5e59599d;
     margin-right: 50px; 
@@ -75,7 +72,7 @@ body {
 .container {
 
     position: relative;
-    margin-left: 50px;
+    /* margin-left: 50px; */
     min-width: 2vw;
     min-height: 1vh;
     text-align: center; 
@@ -85,20 +82,19 @@ body {
 .teks {
 
     position: absolute;
-    top: -10vh;
+    top: 4vh;
     left: 230px;
-    right: 230px;
+    width: 50vw;
     text-align: center;
-    font-family:  serif;
-    font-size: 10vw;
+    /* font-family:  serif; */
+    font-size: 12vh;
 }
 
 .fo{
     position: absolute;
     text-align: left;
-    left: 5vw;
-    font-family:'Inria' Serif;
-    font-size: 5vh;
+    left: 7vw;
+    font-size: 4vh;
     color: white;
 }
 
