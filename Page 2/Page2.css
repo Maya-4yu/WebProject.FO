@@ -451,19 +451,46 @@ ul{
     border-style: solid;
     border-color: #000000;
     border-width: 5px;
-    width: 800px;
-    height: 550px;
-    left:460px;
-    right: 10px;
+    width: 55vw;
+    height: 95vh;
+    left: 467px;
     position: absolute;
-    bottom:2rem;
+    bottom:20rem;
+    top: 250px;
+    object-fit: cover;
 }
 
 .gambar_logo2 {
     width: 50px;
     height: 80px;
+    left: 400px;
+    margin-left: 370px;
+    bottom: 18px; 
+    
+}
+    
+.footer{
+    background-color: #16404D;
+    border-radius: 100px 100px 0px 0px;
+    margin-top: 3rem;
+    padding-top: 21rem;
+    margin-left: 200px;
+    margin-right: 200px; 
+    position: relative;
+
 }
 
+<<<<<<< HEAD
+.logo_2{
+    background: #a6cdc6;
+    border-radius: 100px;
+    width: 94px;
+    height: 90px;
+    position: absolute;
+    left: 60px;
+    margin-top: -17rem;
+}
+=======
 .footer1 {
     background-color: #16404D;
     border-radius: 100px 100px 0px 0px;
@@ -475,6 +502,13 @@ ul{
     
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 851bd7bacfd57881f58109e06bb2b0ead84da7c8
+
+>>>>>>> 37f06a42747a8edf2a810f5bee11b669efb5be70
 .front_1 {
     color: #ffffff;
     font-family: "inter-black", sans-serif;
@@ -539,6 +573,10 @@ ul{
       top: -16px;
 }
 
+<<<<<<< HEAD
+
+
+=======
 .teks {
     position: absolute;
     top: -18rem;
@@ -549,6 +587,13 @@ ul{
     font-size: 200px;
 }
 
+<<<<<<< HEAD
 .new {
     
 }
+=======
+=======
+>>>>>>> 3be7d43e58ff46d57bccc3a972f99935bf76aa2b
+>>>>>>> 06b228fea803f9a362f6034a922de84433ba5adf
+>>>>>>> 851bd7bacfd57881f58109e06bb2b0ead84da7c8
+>>>>>>> 37f06a42747a8edf2a810f5bee11b669efb5be70
