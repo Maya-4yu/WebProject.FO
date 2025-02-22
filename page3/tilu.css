@@ -92,7 +92,7 @@ body {
     position: absolute;
     left: auto ;
     margin-left: 60px;
-    margin-top: -18rem;
+    margin-top: -17rem;
     object-fit: cover;
 }
 .line{
@@ -120,7 +120,7 @@ body {
 .front{
     color: #ffffff;
     font-family: "inter-black", sans-serif;
-    font-size: 34px;
+    font-size: 30px;
     position: absolute;
     left: auto;
     left: 170px;
@@ -312,8 +312,8 @@ body {
     text-align: left; 
     left:18rem;
     /* right: 35rem;  */
-    top: 52rem;
-    font-size: 30px;
+    top: 73rem;
+    font-size: 15px;
     
 }
 .pegi{
@@ -321,8 +321,9 @@ body {
     text-align: left; 
     left:25rem;
     /* right: 28rem;  */
-    top: 60rem;
+    top: 82rem;
     font-size: 30px;
+    
 }
 .gigi{
     position: absolute;
@@ -331,14 +332,30 @@ body {
     /* right: 28rem;  */
     top: 90rem;
     font-size: 30px;
+    
 }
 
 .pnjng p{
     font-size: 4vh;
-    width: auto;
+    width: 1500px;
     min-width: 20vw;
     max-width: 60vw;
     min-height: 10vh;
     right: auto;
     /* top: auto; */
 }
+
+@media screen and (max-width: 600px) {
+    nav {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+    } 
+    nav h1 p{
+     font-size: 1.5em;
+    }
+    div[style*='flex'] {
+     flex-direction: column;
+    }
+ 
+ }
