@@ -4,8 +4,8 @@
 }
 
 .awal img{
-    height: 65rem;
-    width: 112rem;
+   block-size: auto;
+   min-block-size: 88.5rem;
 }
 
 .fntkbwh{
