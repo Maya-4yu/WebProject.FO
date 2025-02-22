@@ -1,4 +1,4 @@
-.vab{
+.body{
     padding-top: 0;
     background-color: #FBF5DD;
 }
@@ -29,3 +29,52 @@
     margin-right: 150px;
 }
 
+.navbar {
+    background-color: #16404D;
+    padding:10px;
+    text-align: right;
+}
+
+.navbar ul {
+    list-style:lower-alpha;
+    margin: 5px;
+    padding: 5px;
+}
+
+.navbar li {
+    display: inline;
+    font-size: 25px;
+}
+
+.navbar a {
+    color:white;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+
+.navbar a:hover {
+    background-color:#DDA853;
+    size: 5px 10px;
+    border-radius: 30px;
+}
+
+.icon { 
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    left: 10px;
+    top: 5px;
+}
+
+.fo {
+    color: white;
+    font-family:'Inria' Serif;
+    font-size: 40px;
+    text-align: left;
+    position: absolute;
+    left: 80px;
+}
+
+.container {
+    position: relative;
+}
