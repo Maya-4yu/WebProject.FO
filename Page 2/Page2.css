@@ -451,10 +451,12 @@ ul{
     border-style: solid;
     border-color: #000000;
     border-width: 5px;
-    width: 587px;
-    height: 315px;
+    width: 800px;
+    height: 550px;
+    left:460px;
+    right: 10px;
     position: absolute;
-    
+    bottom:2rem;
 }
 
 .gambar_logo2 {
@@ -462,6 +464,7 @@ ul{
     height: 80px;
 }
 
+<<<<<<< HEAD
 .footer1 {
     background-color: #16404D;
     border-radius: 100px 100px 0px 0px;
@@ -472,7 +475,11 @@ ul{
     position: relative;
     
 }
+=======
+>>>>>>> 06b228fea803f9a362f6034a922de84433ba5adf
 
+<<<<<<< HEAD
+=======
 
 .front_1 {
     color: #ffffff;
@@ -547,4 +554,8 @@ ul{
     padding: 100px;
     font-size: 200px;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 3be7d43e58ff46d57bccc3a972f99935bf76aa2b
+>>>>>>> 06b228fea803f9a362f6034a922de84433ba5adf

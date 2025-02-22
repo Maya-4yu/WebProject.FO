@@ -1,0 +1,80 @@
+.body{
+    padding-top: 0;
+    background-color: #FBF5DD;
+}
+
+.awal img{
+   block-size: auto;
+   min-block-size: 88.5rem;
+}
+
+.fntkbwh{
+    padding-top: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 30PX;
+}
+
+.fontbwh{
+    padding-top: 1px;
+    margin-left: 150px;
+    font-family: "Marcellus";
+    font-size: 30PX;
+}
+
+.bagh{
+    background-color: #A6CDC6;
+    padding-top: 5px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.navbar {
+    background-color: #16404D;
+    padding:10px;
+    text-align: right;
+}
+
+.navbar ul {
+    list-style:lower-alpha;
+    margin: 5px;
+    padding: 5px;
+}
+
+.navbar li {
+    display: inline;
+    font-size: 25px;
+}
+
+.navbar a {
+    color:white;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+
+.navbar a:hover {
+    background-color:#DDA853;
+    size: 5px 10px;
+    border-radius: 30px;
+}
+
+.icon { 
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    left: 10px;
+    top: 5px;
+}
+
+.fo {
+    color: white;
+    font-family:'Inria' Serif;
+    font-size: 40px;
+    text-align: left;
+    position: absolute;
+    left: 80px;
+}
+
+.container {
+    position: relative;
+}
