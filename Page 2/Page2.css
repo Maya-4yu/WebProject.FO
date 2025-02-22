@@ -323,10 +323,12 @@ body {
     border-style: solid;
     border-color: #000000;
     border-width: 5px;
-    width: 587px;
-    height: 315px;
+    width: 800px;
+    height: 550px;
+    left:460px;
+    right: 10px;
     position: absolute;
-    
+    bottom:2rem;
 }
 
 .gambar_logo2 {
@@ -334,17 +336,9 @@ body {
     height: 80px;
 }
 
-.footer {
-    background-color: #16404D;
-    border-radius: 100px 100px 0px 0px;
-    margin-top: 3rem;
-    padding-top: 21rem;
-    margin-left: 200px;
-    margin-right: 200px; 
-    position: relative;
-    
-}
 
+<<<<<<< HEAD
+=======
 
 .front_1 {
     color: #ffffff;
@@ -419,3 +413,4 @@ body {
     padding: 100px;
     font-size: 200px;
 }
+>>>>>>> 3be7d43e58ff46d57bccc3a972f99935bf76aa2b
