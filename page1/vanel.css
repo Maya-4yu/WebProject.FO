@@ -4,13 +4,13 @@
 }
 
 .awal img{
-    height: 65rem;
+    height: 62rem;
     width: 112rem;
 }
 
 .fntkbwh{
     padding-top: 20px;
-    margin-left: 150px;
+    margin-left: 50px;
     margin-right: 150px;
     font-size: 30PX;
 }
@@ -77,4 +77,88 @@
 
 .container {
     position: relative;
+}
+
+.text {
+    position: relative;
+    top: 500px;
+    left: 50px;
+}
+
+.rectangle-1 {
+    background: #A6CDC6;
+    border: 6px solid #000000;
+    border-radius: 2rem;
+    width: 92vw;
+    height: 55vh;
+    position: relative;
+    bottom: 28rem;
+}
+
+.isi1 {
+    color: #000000;
+    text-align: center;
+    font-family: "Marcellus";
+    font-size: 4.5vh;
+    font-weight: 15vw;
+    position: relative;
+    bottom: 51rem;
+    left: 3rem;
+    width: 85vw;
+    height: 45vh;
+    text-align: left;
+}
+
+.rectangle-2 {
+    background: #DDA853;
+    border: 6px solid #000000;
+    border-radius: 2rem;
+    width: 92vw;
+    height: 50vh;
+    position: relative;
+    bottom: 46rem;
+}
+
+.isi2 {
+    color: #000000;
+    text-align: center;
+    font-family: "Marcellus";
+    font-size: 4.5vh;
+    font-weight: 15vw;
+    position: relative;
+    bottom: 70rem;
+    left: 3rem;
+    width: 85vw;
+    height: 45vh;
+    text-align: left;
+}
+
+.rectangle-3 {
+    background: #A6CDC6;
+    border-radius: 2rem;
+    width: 25vw;
+    height: 55vh;
+    position: relative;
+    bottom: 28rem;
+    left: 70px;
+}
+
+.rectangle-4 {
+    background: #16404D;
+    border-radius: 2rem;
+    width: 25vw;
+    height: 55vh;
+    left: 580px;
+    position: relative;
+    bottom: 55rem;
+}
+
+.rectangle-5 {
+    background: #DDA853;
+    border-radius: 2rem;
+    width: 25vw;
+    height: 55vh;
+    left: 1100px;
+    position: relative;
+    bottom: 82rem;
 }
