@@ -168,16 +168,17 @@ body {
 
 /* page3*/
 
-.blok{
+.bom{
     position: static;
-    padding-top:1px ;
+    padding-top: 30px;
+    margin-left: 55px;
 }
 
 .sinergi{
     
     position: absolute;
     text-align:right; 
-    left:850px; 
+    left:950px; 
     top: 65px;
     text-shadow: 4px 2px 2px rgb(184, 179, 179);
     font-size: 65px;
@@ -186,7 +187,8 @@ body {
 .sinergi2{
     position: absolute;
     text-align:right; 
-    left:1150px; 
+    /* left:1150px;  */
+    right: 180px;
     top: 125px;
     bottom: 50px;
     text-shadow: 4px 2px 2px rgb(184, 179, 179);
@@ -199,7 +201,7 @@ body {
     position: absolute;
     font-size: 85px;
     text-align:right; 
-    left: 900px; 
+    left: 950px; 
     top: 85px;
     text-shadow: 6px 4px 4px rgb(184, 179, 179);
     font-family: 'Lalezar';
@@ -210,15 +212,16 @@ body {
 
     position: absolute;
     text-align: left; 
-    left:850px;
-    right: 260px; 
+    left:950px;
+    /* right: 260px;  */
+    width: 500px;
     top: 195px;
     
 }
 
 .imgs img{
     position: relative;
-    left: 100px;
+    left: 80px;
     margin-top: 49px;
     width: 40vw;
     height: 40vh;
@@ -232,8 +235,8 @@ body {
 
     position: absolute;
     top: 4vh;
-    /* left: 230px; */
-    width: 50vw;
+    left: 420px;
+    /* width: 50vw; */
     text-align: center;
     font-family:  serif;
     font-size: 12vh;
@@ -255,7 +258,8 @@ body {
     text-align: left;
     top: 195px;
     left: 100px;
-    right: 1100px;
+    /* right: 1100px; */
+    width: 500px;
 }
 
 .foto img{
@@ -275,11 +279,9 @@ body {
     object-fit: cover;
     width: 70vw;
     height: 55vh;
-    scroll-padding-left:inherit;
 }
 
 .blok{
-
     margin-block:calc(50vh 50px);
 }
 
