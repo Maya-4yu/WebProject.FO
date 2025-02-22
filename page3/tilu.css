@@ -8,56 +8,50 @@ body {
 }
 
 .navbar {
-
     background-color: #16404D;
     padding:10px;
     text-align: right;
-    min-height:2vh;
-    max-height: 10vh;
-
 }
 
-.navbar ul {    
-
+.navbar ul {
     list-style:lower-alpha;
     margin: 5px;
     padding: 5px;
-
 }
 
 .navbar li {
-
     display: inline;
-    font-size: 3vh;
-
+    font-size: 25px;
 }
 
 .navbar a {
-
-    color:black;
+    color:white;
     text-decoration: none;
     padding: 15px 20px;
-    border-top-width: 4vw;
-    
 }
-
 
 .navbar a:hover {
-
-    background-color:#3a3535;
-    size: 1vw 3vh;
-    border-radius: 5vh;
-
+    background-color:#DDA853;
+    size: 5px 10px;
+    border-radius: 30px;
 }
 
-.icon{
-    position:absolute;
-    margin-top: -1vh;
-    block-size: 4rem;
-    left: 20px ;
+.icon { 
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    left: 10px;
+    top: 5px;
 }
 
-
+.fo {
+    color: white;
+    font-family:'Inria' Serif;
+    font-size: 40px;
+    text-align: left;
+    position: absolute;
+    left: 80px;
+}
 
 .objek{
 
@@ -75,28 +69,10 @@ body {
     /* margin-left: 50px; */
     min-width: 2vw;
     min-height: 1vh;
-    text-align: center; 
+    /* text-align: center;  */
     margin-top: 25px;
 }
 
-.teks {
-
-    position: absolute;
-    top: 4vh;
-    left: 230px;
-    width: 50vw;
-    text-align: center;
-    /* font-family:  serif; */
-    font-size: 12vh;
-}
-
-.fo{
-    position: absolute;
-    text-align: left;
-    left: 7vw;
-    font-size: 4vh;
-    color: white;
-}
 
 .footer{
     background-color: #16404D;
@@ -173,8 +149,8 @@ body {
 }
 .isi{
     position: absolute;
-    width: 250px;
-    height: 1000px;
+    width: 100px;
+    height: 100px;
     top: 100px;
     font-size:15px;
     font-weight: 70;
@@ -183,13 +159,19 @@ body {
     
 }
 .copy{
-    top: 17px;
+    top: 0px;
     position: absolute;
     left: 150px;
     font-family: "imter-black", sans-serif;
+    color:#ffffff;
 }
 
 /* page3*/
+
+.blok{
+    position: static;
+    padding-top:1px ;
+}
 
 .sinergi{
     
@@ -235,7 +217,8 @@ body {
 }
 
 .imgs img{
-    left:-10px; 
+    position: relative;
+    left: 100px;
     margin-top: 49px;
     width: 40vw;
     height: 40vh;
@@ -243,6 +226,17 @@ body {
     border-radius: 30px;
     object-fit: cover;
 
+}
+
+.teks {
+
+    position: absolute;
+    top: 4vh;
+    /* left: 230px; */
+    width: 50vw;
+    text-align: center;
+    font-family:  serif;
+    font-size: 12vh;
 }
 
 .juduk{
@@ -291,10 +285,10 @@ body {
 
 .divisi{
     margin-block:calc(35px 40px);
-    /* padding-top: 350px;     ketebalan background */
+    /* padding-top: 30px;     ketebalan background */
     margin-left: 200px;
     margin-right: 200px;
-    margin-top: 32vh;      /* jarak anatara background,foto,abjad*/
+    margin-top: 150px;      /* jarak anatara background,foto,abjad*/
     margin-bottom: 3rem;
     height:30vh;
     width: auto;
