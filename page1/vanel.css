@@ -1,0 +1,31 @@
+.vab{
+    padding-top: 0;
+    background-color: #FBF5DD;
+}
+
+.awal img{
+    height: 65rem;
+    width: 112rem;
+}
+
+.fntkbwh{
+    padding-top: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 30PX;
+}
+
+.fontbwh{
+    padding-top: 1px;
+    margin-left: 150px;
+    font-family: "Marcellus";
+    font-size: 30PX;
+}
+
+.bagh{
+    background-color: #A6CDC6;
+    padding-top: 5px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
