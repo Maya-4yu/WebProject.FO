@@ -92,7 +92,7 @@ body {
     position: absolute;
     left: auto ;
     margin-left: 60px;
-    margin-top: -17rem;
+    margin-top: -18rem;
     object-fit: cover;
 }
 .line{
@@ -111,10 +111,10 @@ body {
   font-size: 14px;
   font-weight: 900;
   position: absolute;
-  top: auto;
-  top: 90px;
-  left: auto;
-  left: 170px;
+  margin-top: auto;
+  margin-top: -250px;
+  margin-left: auto;
+  margin-left: 170px;
   
 }
 .front{
@@ -166,13 +166,14 @@ body {
     color:#ffffff;
 }
 
-/* page3*/
-
 .bom{
     position: static;
     padding-top: 30px;
     margin-left: 55px;
 }
+/* page3*/
+
+
 
 .sinergi{
     
@@ -303,7 +304,7 @@ body {
     font-size:16vh;
     filter: drop-shadow(20px 12px 3px rgba(156, 156, 156, 0.603));
     font-family: Impact, 'Arial Narrow Bold', sans-serif;
-    /* top:auto; */
+    margin-top: -105px;
    
 }
 
@@ -312,7 +313,7 @@ body {
     text-align: left; 
     left:18rem;
     /* right: 35rem;  */
-    top: 73rem;
+    margin-top: 2rem;
     font-size: 15px;
     
 }
@@ -321,7 +322,7 @@ body {
     text-align: left; 
     left:25rem;
     /* right: 28rem;  */
-    top: 82rem;
+    margin-top: 10rem;
     font-size: 30px;
     
 }
@@ -330,7 +331,7 @@ body {
     text-align: left; 
     left:20rem;
     /* right: 28rem;  */
-    top: 90rem;
+    margin-top: 3rem;
     font-size: 30px;
     
 }
