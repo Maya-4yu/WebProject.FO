@@ -262,7 +262,11 @@ body {
     position: absolute;
     left: auto;
     top: auto; 
+    
+}
+.rectangle-2:hover {
     box-shadow: 1rem 1.5rem 1.5rem 1rem rgba(0, 0, 0, 0.6);
+    transition: 0.2s;
 }
 .rectangle-3 {
     background-color: #a6cdc6;
