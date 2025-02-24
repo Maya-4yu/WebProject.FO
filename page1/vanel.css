@@ -4,13 +4,8 @@
 }
 
 .awal img{
-<<<<<<< HEAD
-    height: 62rem;
-    width: 112rem;
-=======
    block-size: auto;
    min-block-size: 88.5rem;
->>>>>>> 93257c6e0745ad11395c086451fd80c6e1657566
 }
 
 .fntkbwh{
@@ -131,7 +126,7 @@
     font-size: 4.5vh;
     font-weight: 15vw;
     position: relative;
-    bottom: 70rem;
+    bottom: 68rem;
     left: 3rem;
     width: 85vw;
     height: 45vh;
@@ -145,7 +140,11 @@
     height: 55vh;
     position: relative;
     bottom: 28rem;
-    left: 70px;
+    left: 78px;
+}
+
+.foto-reception img {
+    justify-content: center;
 }
 
 .rectangle-4 {
@@ -155,7 +154,7 @@
     height: 55vh;
     left: 580px;
     position: relative;
-    bottom: 55rem;
+    bottom: 53.5rem;
 }
 
 .rectangle-5 {
@@ -165,5 +164,5 @@
     height: 55vh;
     left: 1100px;
     position: relative;
-    bottom: 82rem;
+    bottom: 79rem;
 }
