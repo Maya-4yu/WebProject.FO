@@ -161,6 +161,9 @@ body {
     left: 38.5rem;
     top: 5rem;
 }
+.feature:hover {
+    text-decoration: dashed;
+}
 .about-us {
     color: #ffffff;
     text-align: left;
@@ -265,8 +268,8 @@ body {
     
 }
 .rectangle-2:hover {
-    box-shadow: 1rem 1.5rem 1.5rem 1rem rgba(0, 0, 0, 0.6);
-    transition: 0.2s;
+    box-shadow: 0px 5px 30px black;
+    transition: 0.5s;
 }
 .rectangle-3 {
     background-color: #a6cdc6;
@@ -342,12 +345,13 @@ body {
 
 
 .judul_struktur {
+    color: #16404d;
     text-align: center;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 45px;
+    font-size: 35px;
     font-weight: 20px;
     margin-top: 90px;
-    margin-right: 90px;
+    margin-right: 50px;
 }
 
 .lin{
@@ -359,21 +363,21 @@ body {
     border-style: solid;
     border-color: #000000;
     border-width: 5px;
-    width: 55vw;
-    height: 95vh;
-    left: 345px;
+    width: 98vw;
+    height: 160.9vh;
+    left: 0vh;
     position: relative;
     bottom:10rem;
-    top: 170px;
+    top: 10rem;
     object-fit: cover;
 }
 
 .gambar_logo2 {
     position: absolute;
-    width: 100px;
-    height: 135px;
-    right: 1370px;
-    margin-left: 145px;
+    width: 80px;
+    height: 115px;
+    right: 1080px;
+    margin-left: 150px;
    top: 145px;
     
 }
@@ -451,7 +455,7 @@ body {
 }
 
 .copy_1 {
-    top: 13px;
+    top: 5px;
     position: absolute;
     left: 150px;
     font-family: "imter-black", sans-serif;
@@ -468,10 +472,10 @@ body {
 }
 
 .line_2 {
-     position: relative;
-     padding-top: 14px;
-     background-color: #a6cdc6;
-      top: -16px;
+    position: relative;
+    padding-top: 14px;
+    background-color: #a6cdc6;
+    top: -16px;
 }
 
 
@@ -488,20 +492,20 @@ body {
 
 .gambar_logo3 {
     position: absolute;
-    width: 150px;
-    height: 130px;
+    width: 105px;
+    height: 90 px;
     left: 1050px;
-    margin-left: 370px;
+    margin-left: 90px;
    top: 145px;
     
 }
 
 .gambar_logo4 {
     position: absolute;
-    width: 155px;
-    height: 135px;
+    width: 115Px;
+    height: 105px;
     left: 885px;
-    margin-left: 370px;
+    margin-left:125px;
    top: 145px;
 }
 
