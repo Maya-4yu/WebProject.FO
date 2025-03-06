@@ -8,93 +8,59 @@ body {
 }
 
 .navbar {
-
     background-color: #16404D;
-
     padding:10px;
-
     text-align: right;
-
 }
 
 .navbar ul {
-
     list-style:lower-alpha;
-
     margin: 5px;
-
     padding: 5px;
-
 }
 
 .navbar li {
-
     display: inline;
     font-size: 25px;
-
 }
 
 .navbar a {
-
-    color:black;
-
+    color:white;
     text-decoration: none;
-
     padding: 15px 20px;
-    
 }
-
 
 .navbar a:hover {
-
-    background-color:#3a3535;
+    background-color:#DDA853;
     size: 5px 10px;
     border-radius: 30px;
-
 }
 
-.icon{
+.icon { 
     position: absolute;
     width: 55px;
     height: 55px;
     left: 10px;
+    top: 5px;
 }
 
-
+.fo {
+    color: white;
+    font-family:'Inria' Serif;
+    font-size: 40px;
+    text-align: left;
+    position: absolute;
+    left: 80px;
+}
 
 .objek{
 
     background-color: #A6CDC6;
-    padding-top: 20px ;
     border-style: solid ;
     border-color: #5e59599d;
-}
-
-.container {
-
-    position: relative;
-    margin-left: 50px;
-    
-}
-
-.teks {
-
-    position: absolute;
-    top: -18rem;
-    left: 230px;
-    right: 230px;
-    font-family:  serif;
-    padding: 100px;
-    font-size: 200px;
-}
-
-.fo{
-    position: absolute;
-    text-align: left;
-    left: 80px;
-    font-family:'Inria' Serif;
-    font-size: 40px;
-    color: white;
+    margin-right: 50px; 
+    margin-left: 50px; 
+    margin-top: 20px;
 }
 
 .footer{
@@ -115,7 +81,7 @@ body {
     position: absolute;
     left: auto ;
     margin-left: 60px;
-    margin-top: -17rem;
+    margin-top: -18rem;
     object-fit: cover;
 }
 .line{
@@ -134,16 +100,16 @@ body {
   font-size: 14px;
   font-weight: 900;
   position: absolute;
-  top: auto;
-  top: 90px;
-  left: auto;
-  left: 170px;
+  margin-top: auto;
+  margin-top: -250px;
+  margin-left: auto;
+  margin-left: 170px;
   
 }
 .front{
     color: #ffffff;
     font-family: "inter-black", sans-serif;
-    font-size: 34px;
+    font-size: 30px;
     position: absolute;
     left: auto;
     left: 170px;
@@ -169,11 +135,12 @@ body {
     font-family: "inter-black", sans-serif;
     font-weight: 700;
     color: #ffffff;
+    
 }
 .isi{
     position: absolute;
-    width: 250px;
-    height: 1000px;
+    width: 100px;
+    height: 100px;
     top: 100px;
     font-size:15px;
     font-weight: 70;
@@ -182,20 +149,45 @@ body {
     
 }
 .copy{
-    top: 17px;
+    top: 0px;
     position: absolute;
     left: 150px;
     font-family: "imter-black", sans-serif;
+    color:#ffffff;
 }
 
+.bom{
+    position: static;
+    padding-top: 30px;
+    margin-left: 55px;
+}
 /* page3*/
+
+.container {
+    /* margin-left: 50px; */
+    min-width: 2vw;
+    min-height: 1vh;
+    /* text-align: center;  */
+    margin-top: 50px;
+}
+
+.txt{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    gap: 50px;
+    /* padding: 10px;
+    max-width: 500px;
+    margin: auto; */
+}
 
 .sinergi{
     
     position: absolute;
+    padding: 50px;
     text-align:right; 
-    left:850px; 
-    top: 65px;
+    left:950px; 
+    margin-top: -400px;
     text-shadow: 4px 2px 2px rgb(184, 179, 179);
     font-size: 65px;
     font-family: 'Lalezar';
@@ -203,9 +195,10 @@ body {
 .sinergi2{
     position: absolute;
     text-align:right; 
-    left:1150px; 
-    top: 125px;
-    bottom: 50px;
+    /* left:1150px;  */
+    right: 0px;
+    margin-top: 5px;
+    /* bottom: 50px; */
     text-shadow: 4px 2px 2px rgb(184, 179, 179);
     font-size: 65px;
     font-family: 'Lalezar';
@@ -216,58 +209,72 @@ body {
     position: absolute;
     font-size: 85px;
     text-align:right; 
-    left: 900px; 
-    top: 85px;
+    padding-left: 950px; 
+    top: 780px;
     text-shadow: 6px 4px 4px rgb(184, 179, 179);
     font-family: 'Lalezar';
     
 }
 
-.kanan{
+.kanan {
 
     position: absolute;
     text-align: left; 
-    left:850px;
-    right: 260px; 
-    top: 195px;
-    
+    left:600px;
+    /* right: 260px;  */
+    width: 500px;
+    margin-top: -280px;
+    padding: 0px;
 }
 
 .imgs img{
-    margin-left:0px; 
-    margin-top: 49px;
-    width: 40rem;
-    height: 20rem;
+    position: relative;
+    left: 80px;
+    top: 30px;
+    width: 40vw;
+    height: 40vh;
     filter: drop-shadow(10px 10px 2px rgb(92, 90, 90));
     border-radius: 30px;
     object-fit: cover;
 
 }
 
+.teks {
+
+    position: absolute;
+    top: 15px;
+    left: 400px;
+    /* width: 50vw; */
+    text-align: center;
+    font-family:  serif;
+    font-size: 12vh;
+}
+
 .juduk{
     position: absolute;
     text-align:right; 
-    left: 100px; 
-    top: 85px;
+    margin-left: 100px; 
+    top: 850px;
     text-shadow: 4px 2px 2px rgb(184, 179, 179);
     font-size: 85px;
     font-family: 'Lalezar';
 }
 
-.kiri{
+.kiri {
 
-    position: absolute;
+    position: relative;
     text-align: left;
-    top: 195px;
+    margin-top: -275px ;
     left: 100px;
-    right: 1100px;
+    /* right: 1100px; */
+    width: 500px;
 }
 
 .foto img{
     margin-left: 900px;
-    margin-top: 49px;
-    width: 40rem;
-    height: 20rem;
+    margin-top: 40px;
+    width: 40vw;
+    height: 40vh;
     filter: drop-shadow(10px 10px 2px rgb(92, 90, 90));
     border-radius: 30px;
     object-fit: cover;
@@ -275,28 +282,39 @@ body {
 
 
 .wiro img{
+    position: relative;
     filter: drop-shadow(20PX 25PX 9PX  rgb(92, 90, 90));
     border-radius: 25px;
     object-fit: cover;
-    width: 164vh;
-    height: 530px;
-    
+    width: 70vw;
+    height: 55vh;
+    /* kurang burem */
 }
 
 .blok{
-
     margin-block:calc(50vh 50px);
 }
 
 .divisi{
-    margin-block:calc(35px 40px);
-    padding-top: 350px;     /* ketebalan background*/
+    /* margin-block:calc(35px 40px); */
+    /* padding-top: 30px;     ketebalan background */
     margin-left: 200px;
     margin-right: 200px;
-    margin-top: 14rem;      /* jarak anatara background,foto,abjad*/
+    margin-top: 150px;      /* jarak anatara background,foto,abjad*/
     margin-bottom: 3rem;
-    height:auto;
+    height:30vh;
     width: auto;
+}
+
+.name{
+    position: absolute;
+    left: 120px;
+    padding: 10px;
+    font-size:16vh;
+    filter: drop-shadow(20px 12px 3px rgba(156, 156, 156, 0.603));
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    margin-top: -105px;
+   
 }
 
 .pice {
@@ -304,8 +322,8 @@ body {
     text-align: left; 
     left:18rem;
     /* right: 35rem;  */
-    top: 52rem;
-    font-size: 30px;
+    margin-top: 2rem;
+    font-size: 15px;
     
 }
 .pegi{
@@ -313,31 +331,44 @@ body {
     text-align: left; 
     left:25rem;
     /* right: 28rem;  */
-    top: 60rem;
+    margin-top: 10rem;
     font-size: 30px;
+    
 }
 .gigi{
     position: absolute;
     text-align: left; 
     left:20rem;
     /* right: 28rem;  */
-    top: 90rem;
+    margin-top: 3rem;
     font-size: 30px;
-}
-
-.name{
-    position: absolute;
-    left: 120px;
-    padding: 10px;
-    font-size:160px;
-    filter: drop-shadow(20px 12px 3px rgba(156, 156, 156, 0.603));
-    font-family: Impact, 'Arial Narrow Bold', sans-serif;
-
+    
 }
 
 .pnjng p{
-    width: auto;
+    font-size: 4vh;
+    width: 1500px;
     min-width: 20vw;
     max-width: 60vw;
     min-height: 10vh;
+    right: auto;
+    text-align: justify;
+    /* top: auto; */
 }
+
+@media screen and (max-width: 600px) {
+    nav {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+    } 
+    nav h1 p{
+     font-size: 1.5em;
+     text-align: justify;
+    }
+    div[style*='flex'] {
+     flex-direction: column;
+    }
+    
+ 
+ }
