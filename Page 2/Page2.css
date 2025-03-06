@@ -149,9 +149,7 @@ body {
     top: 3.2rem;
 }
 .feature {
-    color: #ffffff;
     text-align: left;
-    text-decoration: none;
     font-family: "Inter-SemiBold", sans-serif;
     font-size: 14px;
     font-weight: 600;
@@ -159,8 +157,15 @@ body {
     left: 38.5rem;
     top: 5rem;
 }
-.feature:hover {
-    text-decoration: dashed;
+.feature li{
+    color: #ffffff;
+}
+.feature li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.feature li:hover {
+    text-decoration: underline;
 }
 .about-us {
     color: #ffffff;
