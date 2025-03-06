@@ -38,12 +38,11 @@ body {
 
 
 .navbar a:hover {
-
-  background-color:#3a3535;
+  background-color:#DDA853;
   size: 5px 10px;
   border-radius: 30px;
-
 }
+
 
 .icon{
   position: absolute;
