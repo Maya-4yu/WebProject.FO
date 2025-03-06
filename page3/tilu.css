@@ -175,6 +175,7 @@ body {
     content: "";
     clear: both;
     display: table;
+    border-radius:  100px; ;
 }
 
 .txt{
@@ -237,7 +238,7 @@ body {
     position: relative;
     left: 80px;
     top: 100px;
-    width: 40vw;
+    /* width: 40vw; */
     height: 40vh;
     filter: drop-shadow(10px 10px 2px rgb(92, 90, 90));
     border-radius: 30px;
@@ -260,11 +261,8 @@ body {
     position: relative;
     text-align:right; 
     margin-left: 100px; 
-<<<<<<< HEAD
     top: 1150px;
-=======
     top: 850px;
->>>>>>> ef5389e5facfc7dcf9a382f7ee6ef26c9993e136
     text-shadow: 4px 2px 2px rgb(184, 179, 179);
     font-size: 85px;
     font-family: 'Lalezar';
@@ -365,6 +363,25 @@ body {
     text-align: justify;
     /* top: auto; */
 }
+
+.responsive-bg {
+    width: 100%;
+    height: 300px;
+    background-image: url('gambar-besar.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+@media (max-width: 768px) {
+    .responsive-bg {
+      background-image: url('gambar-sedang.jpg');
+    }
+  }
+@media (max-width: 480px) {
+    .responsive-bg {
+      background-image: url('gambar-kecil.jpg');
+    }
+  }
 
 @media screen and (max-width: 600px) {
     nav {
