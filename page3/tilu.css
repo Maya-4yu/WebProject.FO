@@ -226,7 +226,7 @@ body {
 
     position: relative;
     text-align: left; 
-    left:1000px;
+    left:600px;
     /* right: 260px;  */
     width: 500px;
     margin-top: -280px;
@@ -248,8 +248,8 @@ body {
 .teks {
 
     position: absolute;
-    top: 10vh;
-    left: 460px;
+    top: 15px;
+    left: 400px;
     /* width: 50vw; */
     text-align: center;
     font-family:  serif;
@@ -260,7 +260,11 @@ body {
     position: relative;
     text-align:right; 
     margin-left: 100px; 
+<<<<<<< HEAD
     top: 1150px;
+=======
+    top: 850px;
+>>>>>>> ef5389e5facfc7dcf9a382f7ee6ef26c9993e136
     text-shadow: 4px 2px 2px rgb(184, 179, 179);
     font-size: 85px;
     font-family: 'Lalezar';
