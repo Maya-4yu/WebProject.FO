@@ -95,7 +95,7 @@ body{
     position: relative;
     /* bottom: 0rem; */
     top: 50px;
-    left: 70px;
+    left: 60px;
 }
 
 .isi1 {
@@ -120,7 +120,7 @@ body{
     height: 50vh;
     position: relative;
     top: 100px;
-    left: 70px  ;
+    left: 60px  ;
 }
 
 .isi2 {
@@ -137,61 +137,66 @@ body{
     text-align: left;
 }
 
+.garistgh {
+    /* margin-top: -5px; */
+    border-style: solid;
+    border-color: #000000;
+    border-width: 5px 5px 5px 0;
+    /* width: 3px; */
+    height: 21rem;
+    position: absolute;
+    left: 560px;
+    top: 0px;
+    
+}
+
 .tmbl {
     position: relative;
-    top: 120px;
-    
+    top: 250px;
 }
 
 .rectangle-3 {
     background: #A6CDC6;
-    border-radius: 2rem;
-    width: 25vw;
+    border-radius: 1.5rem;
+    width: 26.3vw;
     height: 40vh;
     position:absolute;
-    left: 110px;
+    left: 100px;
 }
 
-.rectangle-4 {
-    background: #16404D;
-    border-radius: 2rem;
-    width: 25vw;
-    height: 40vh;
-    left: 480px;
-    position: absolute;
-    /* bottom: 4rem; */
-}
 
-.rectangle-5 {
-    background: #DDA853;
-    border-radius: 2rem;
-    width: 25vw;
-    height: 40vh;
-    left: 850px;
-    position: absolute;
-    /* bottom: 54rem; */
+.gmbr {
+    position: relative;
+    text-align: center;
+    top: 20px;
 }
 
 .textrec {
     position: relative;
-    left: 100px;
-    top: 70px;
-    font-size: 22px;
-    text-align: Lusitana;
+    top: 15px;
+    font-size: 18px;
+    text-align: center;
+    bottom: 53rem;
 }
 
-/* .isicon {
-    left: 70px;
-    top: 50px;
-} */
+.tttl {
+    text-align: center;
+    font-size: 2vw;
+}
 
 .footer {
+    background-color: #16404D;
     display: flex;
     flex-wrap: wrap;
-    position: static;
-    top: 20rem;
+    position: relative;
     right: 6.5rem;
+    top: 5rem;
     width: 85vw;
+    border-radius: 100px 100px 0px 0px;
+    margin-top: 40rem;
+    padding-top: 21rem;
+    margin-left: 200px;
+    margin-right: 200px; 
 }
 .rap {
     display: flex;
@@ -201,7 +206,7 @@ body{
 .circle2 {
     background-color: #a6cdc6 ;
     border-radius: 50%;
-    object-fit: cover;
+    object-fit:contain;
     position: absolute;
     width: 6vw;
     height: 11vh;
@@ -284,7 +289,6 @@ body{
     top: 3.2rem;
 }
 .feature {
-    color: #ffffff;
     text-align: left;
     font-family: "Inter-SemiBold", sans-serif;
     font-size: 14px;
@@ -293,8 +297,15 @@ body{
     left: 38.5rem;
     top: 5rem;
 }
-.feature:hover {
-    text-decoration: dashed;
+.feature li{
+    color: #ffffff;
+}
+.feature li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.feature li:hover {
+    text-decoration: underline;
 }
 .about-us {
     color: #ffffff;
@@ -341,3 +352,14 @@ body{
     bottom: 1rem;
 }
 
+/* .plyn{
+    color: #000000;
+    text-align: center;
+    font-family: "Lusitana-Regular", sans-serif;
+    font-size: 400px;
+    line-height: 65px;
+    font-weight: 400;
+    position: absolute;
+    left: 17px;
+    top: 60px;
+} */
