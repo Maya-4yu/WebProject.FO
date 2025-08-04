@@ -2,12 +2,12 @@ body {
 
   margin: 0;
   padding: 0;
-  background-color:#FBF5DD;
+  background-color:#ffffff;
 }
 
 .navbar {
 
-  background-color: #16404D;
+  background-color: #001F3F;
   padding:10px;
   text-align: right;
 
@@ -38,7 +38,7 @@ body {
 
 
 .navbar a:hover {
-  background-color:#DDA853;
+  background-color:#7F8CAA;
   size: 5px 10px;
   border-radius: 30px;
 }
@@ -53,7 +53,7 @@ body {
 
 .objek{
 
-  background-color: #A6CDC6;
+  background-color: #7F8CAA;
   margin-top: 50px ;
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -88,7 +88,7 @@ body {
 }
 
 .tulisanfaq{
-  color: #16404D;
+  color: #001F3F;
   text-align: center;
   font-size: 70px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -97,7 +97,7 @@ body {
 }
 
 .bawahefaq{
-  color: #DDA853;
+  color: #7F8CAA;
   text-align: center;
   font-size: 40px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -144,7 +144,7 @@ body {
   margin-top: 50px;
 }
 .janganragu-dengansitus{
-  color: #16404D;
+  color: #7F8CAA;
   text-align: center;
   font-size: 40px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -177,7 +177,7 @@ body {
   top: 7px;
 }
 .footer {
-  background-color: #16404D;
+  background-color: #001F3F;
   display: flex;
   flex-wrap: wrap;
   position: relative;
@@ -196,7 +196,7 @@ body {
   align-items: center;
 }
 .circle2 {
-  background-color: #a6cdc6 ;
+  background-color: #ffffff ;
   border-radius: 50%;
   object-fit:contain;
   position: absolute;
@@ -208,7 +208,7 @@ body {
 .linez {
   margin-top: 1rem;
   border-style: solid;
-  border-color: #a6cdc6;
+  border-color: #7F8CAA;
   border-width: 7px 0 0 0;
   width: 68rem;
   height: 0px;
