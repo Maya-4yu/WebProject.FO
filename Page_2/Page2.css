@@ -1,11 +1,11 @@
 body {
     margin: 0;
     padding: 0;
-    background-color:#FBF5DD;
+    background-color:#ffffff;
 }
 
 .navbar {
-    background-color: #16404D;
+    background-color: #001F3F;
     padding:10px;
     text-align: right;
 }
@@ -24,7 +24,7 @@ body {
     padding: 15px 20px;
 }
 .navbar a:hover {
-    background-color:#DDA853;
+    background-color:#7F8CAA;
     size: 5px 10px;
     border-radius: 30px;
 }
@@ -49,7 +49,7 @@ body {
 }
 
 .footer {
-    background-color: #16404D;
+    background-color: #001F3F;
     border-radius: 100px 100px 0px 0px;
     display: flex;
     flex-wrap: wrap;
@@ -66,7 +66,7 @@ body {
     align-items: center;
 }
 .circle2 {
-    background-color: #a6cdc6 ;
+    background-color: #ffffff ;
     border-radius: 50%;
     object-fit:contain;
     position: absolute;
@@ -78,7 +78,7 @@ body {
 .linez {
     margin-top: 1rem;
     border-style: solid;
-    border-color: #a6cdc6;
+    border-color: #7F8CAA;
     border-width: 7px 0 0 0;
     width: 68rem;
     height: 0px;
@@ -215,7 +215,7 @@ body {
 }
 
 .judul {
-    color: #16404d;
+    color: #001F3F;
     text-align: center;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size:8vh;
@@ -225,9 +225,9 @@ body {
 }
 
 .text {
-    background-color: #a6cdc6;
+    background-color: #7F8CAA;
     border: 4px solid #000000;
-    border-radius: 8rem;
+    border-radius: 0rem;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 4.7vh;
     text-align: center;
@@ -242,8 +242,8 @@ body {
 }
 
 .circle{
-    border: 30px solid #dda853;
-    border-radius: 50%;
+    /* border: 30px solid #7F8CAA;
+    border-radius: 50%; */
     object-fit: cover;
     position: absolute;
     right: 0px;
@@ -265,7 +265,7 @@ body {
     padding-top: 15rem;
 }
 .rectangle-2 {
-    background: #16404d;
+    background: #001F3F;
     border-radius: 2rem;
     width: 19vw;
     height: 41.5vh;
@@ -279,7 +279,7 @@ body {
     transition: 0.5s;
 } */
 .rectangle-3 {
-    background-color: #a6cdc6;
+    background-color: #7F8CAA;
     border-radius: 1rem;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 4vh;
