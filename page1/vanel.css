@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #FBF5DD;
+    background-color: #ffffff;
 }
 
 .awal img{
@@ -24,14 +24,14 @@ body{
 }
 
 .bagh{
-    background-color: #A6CDC6;
+    background-color: #113F67;
     padding-top: 5px;
     margin-left: 150px;
     margin-right: 150px;
 }
 
 .navbar {
-    background-color: #16404D;
+    background-color: #001F3F;
     padding:10px;
     text-align: right;
 }
@@ -54,7 +54,7 @@ body{
 }
 
 .navbar a:hover {
-    background-color:#DDA853;
+    background-color:#7F8CAA;
     size: 5px 10px;
     border-radius: 30px;
 }
@@ -87,7 +87,7 @@ body{
 }
 
 .rectangle-1 {
-    background: #A6CDC6;
+    background: #7F8CAA;
     border: 6px solid #000000;
     border-radius: 2rem;
     width: 88vw;
@@ -113,7 +113,7 @@ body{
 }
 
 .rectangle-2 {
-    background: #DDA853;
+    background: #7F8CAA;
     border: 6px solid #000000;
     border-radius: 2rem;
     width: 88vw;
@@ -156,7 +156,7 @@ body{
 }
 
 .rectangle-3 {
-    background: #A6CDC6;
+    background: #7F8CAA;
     border-radius: 1.5rem;
     width: 26.3vw;
     height: 40vh;
@@ -185,7 +185,7 @@ body{
 }
 
 .footer {
-    background-color: #16404D;
+    background-color: #001F3F;
     display: flex;
     flex-wrap: wrap;
     position: relative;
@@ -204,7 +204,7 @@ body{
     align-items: center;
 }
 .circle2 {
-    background-color: #a6cdc6 ;
+    background-color: #ffffff ;
     border-radius: 50%;
     object-fit:contain;
     position: absolute;
@@ -216,7 +216,7 @@ body{
 .linez {
     margin-top: 1rem;
     border-style: solid;
-    border-color: #a6cdc6;
+    border-color: #7F8CAA;
     border-width: 7px 0 0 0;
     width: 68rem;
     height: 0px;
